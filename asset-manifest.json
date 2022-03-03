@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/AndrieievaLena/goit-react-hw-02-feedback/static/css/main.7acaea2f.css",
-    "main.js": "/AndrieievaLena/goit-react-hw-02-feedback/static/js/main.a542ce32.js",
+    "main.css": "/AndrieievaLena/goit-react-hw-02-feedback/static/css/main.e6c13ad2.css",
+    "main.js": "/AndrieievaLena/goit-react-hw-02-feedback/static/js/main.f87d6e22.js",
     "static/js/787.6b7abe35.chunk.js": "/AndrieievaLena/goit-react-hw-02-feedback/static/js/787.6b7abe35.chunk.js",
     "index.html": "/AndrieievaLena/goit-react-hw-02-feedback/index.html",
-    "main.7acaea2f.css.map": "/AndrieievaLena/goit-react-hw-02-feedback/static/css/main.7acaea2f.css.map",
-    "main.a542ce32.js.map": "/AndrieievaLena/goit-react-hw-02-feedback/static/js/main.a542ce32.js.map",
+    "main.e6c13ad2.css.map": "/AndrieievaLena/goit-react-hw-02-feedback/static/css/main.e6c13ad2.css.map",
+    "main.f87d6e22.js.map": "/AndrieievaLena/goit-react-hw-02-feedback/static/js/main.f87d6e22.js.map",
     "787.6b7abe35.chunk.js.map": "/AndrieievaLena/goit-react-hw-02-feedback/static/js/787.6b7abe35.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.a542ce32.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.f87d6e22.js"
   ]
 }
