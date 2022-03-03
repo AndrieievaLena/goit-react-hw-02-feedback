@@ -1,10 +1,10 @@
 import React from "react";
-import Statistic from "./Statistic/Statistic";
+import Feedback from './Feedback/Feedback';
 
 export const App = () => {
   return(
    
-    <Statistic/>
+    <Feedback/>
  
   )
    

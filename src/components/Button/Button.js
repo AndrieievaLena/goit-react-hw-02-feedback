@@ -1,19 +1,26 @@
 import React from "react";
-import s from '../Button/Button.module.css'
+import propTypes from 'prop-types';
 
 
-const Button = ({onGood, onNeutral, onBad}) => (
-    <div className={s.section}>
-          <h2>Please Leave Feedback</h2>
-                <button 
-                type="button" 
-                onClick={onGood}>Good</button>
-                <button 
-                type="button"
-                onClick={onNeutral}>Neutral</button>
-                <button 
-                type="button" 
-                onClick={onBad}>Bad</button>
-   </div>
+const Button = ({options, onClickHandel}) => (
+   <ul>
+       {options.map(option =>(
+            <li key={option}>
+                <button type="button">
+                        name= {option}
+                        onClick = {() => onClickHandel}
+                    {option}
+                </button>
+                
+            </li>
+       ))}
+    
+       
+   </ul>
 );
 export default Button;
+Button.propTypes ={
+    option: propTypes.string,
+    options: propTypes.array,
+    onClickHandel: propTypes.func,
+}
