@@ -1,14 +1,16 @@
 import React from "react";
 import propTypes from 'prop-types';
+import s from '../Button/Button.module.css'
 
 
 const Button = ({options, onClickHandel}) => (
-   <ul>
+   <ul className={s.section}>
        {options.map(option =>(
             <li key={option}>
-                <button type="button">
+                <button type="button"
+                        className={s.button}
                         name= {option}
-                        onClick = {() => onClickHandel}
+                        onClick = {() => onClickHandel(option)}>
                     {option}
                 </button>
                 
@@ -21,6 +23,6 @@ const Button = ({options, onClickHandel}) => (
 export default Button;
 Button.propTypes ={
     option: propTypes.string,
-    options: propTypes.array,
+    options: propTypes.object,
     onClickHandel: propTypes.func,
 }

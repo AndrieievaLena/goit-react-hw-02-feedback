@@ -1,0 +1,34 @@
+.section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.option {
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+}
+.title {
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 900;
+  line-height: 1.6;
+  color: rgb(77, 20, 131);
+}
+.title:not(:last-child) {
+  margin-right: 20px;
+}
+.total {
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 700;
+  line-height: 1.6;
+  color: rgb(71, 68, 73);
+}
+.percentage {
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 900;
+  line-height: 1.6;
+  color: rgba(79, 150, 46, 0.692);
+}
